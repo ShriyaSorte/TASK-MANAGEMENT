@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api',api);
 
 // MONGODB CONNECTION
-mongoose.connect('mongodb+srv://shriyasorte2000:root@cluster0.egofevs.mongodb.net/task-management');
+mongoose.connect('');
 
 mongoose.connection.once('open',()=>{
     console.log("Connected to Database..");
